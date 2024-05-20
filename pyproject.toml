@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bssd-core"
+version = "0.1.0"
+description = "The core library for the BSSD project"
+readme = "README.md"
+authors = [
+  { name = "Eric Krämer", email = "eric.kraemer@stud.tu-darmstadt.de" },
+  { name = "Akkad Abraham", email = "akkad.abraham@stud.tu-darmstadt.de" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["bssd", "osm"]
+dependencies = [
+    "osmium"
+]
+requires-python = ">=3.8"

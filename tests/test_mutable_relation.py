@@ -1,7 +1,7 @@
 import pytest
 from osmium import osm
 
-from bssd.core import mutable
+from bssd_core import mutable
 
 
 @pytest.fixture

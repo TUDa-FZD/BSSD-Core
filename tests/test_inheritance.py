@@ -1,8 +1,8 @@
 from typing import List
 
 import pytest
-from bssd import core
-from bssd.core import _base, mutable, _interfaces
+import bssd_core
+from bssd_core import _base, mutable, _interfaces
 
 
 def test_make_mutable_inherits_from_relation():
@@ -32,7 +32,7 @@ class TestClasses:
         assert issubclass(b, i)
 
     def test_immutables_inherit_from_make_mutable(self, cls):
-        i = getattr(core, cls)
+        i = getattr(bssd_core, cls)
 
         assert issubclass(i, _base.MakeMutable)
 

@@ -15,8 +15,8 @@ handler are only temporary. If data is wished to be stored it must be copied out
 
 ```python
 import osmium
-from bssd_core import BSSDHandler, Reservation
-from bssd_core import mutable
+from bssd.core import BSSDHandler, Reservation
+from bssd.core import mutable
 
 
 class Handler(BSSDHandler):

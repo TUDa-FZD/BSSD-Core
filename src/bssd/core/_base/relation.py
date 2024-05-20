@@ -3,7 +3,7 @@ from typing import Optional, Union, Final, Iterator
 
 from osmium import osm
 
-from bssd_core import CrossingType, ReservationType
+from .. import CrossingType, ReservationType
 
 
 class Relation:

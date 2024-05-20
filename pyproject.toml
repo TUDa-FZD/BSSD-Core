@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bssd-core"
+name = "bssd"
 version = "0.1.0"
-description = "The core library for the BSSD project"
+description = "The core of the BSSD project"
 readme = "README.md"
 authors = [
   { name = "Eric Krämer", email = "eric.kraemer@stud.tu-darmstadt.de" },

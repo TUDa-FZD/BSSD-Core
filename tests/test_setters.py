@@ -3,8 +3,8 @@ from collections import namedtuple
 import pytest
 from osmium import osm
 
-from bssd_core import CrossingType
-from bssd_core import mutable, ReservationType
+from bssd.core import CrossingType
+from bssd.core import mutable, ReservationType
 
 RelationMember = namedtuple("RelationMember", "role, ref, type")
 

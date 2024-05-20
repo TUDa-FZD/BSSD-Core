@@ -3,7 +3,7 @@ from collections import namedtuple
 import pytest
 from osmium import osm
 
-from bssd_core import _base
+from bssd.core import _base
 
 RelationMember = namedtuple("RelationMember", "role, ref, type")
 

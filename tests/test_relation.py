@@ -3,7 +3,7 @@ from typing import Tuple
 import pytest
 from osmium import osm
 
-from bssd_core import _base
+from bssd.core import _base
 
 
 @pytest.fixture

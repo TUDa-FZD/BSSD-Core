@@ -21,3 +21,6 @@ dependencies = [
     "osmium"
 ]
 requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["pytest"]

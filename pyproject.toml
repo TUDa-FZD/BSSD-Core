@@ -3,13 +3,15 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bssd"
-version = "0.1.0"
+name = "bssd-core"
+version = "0.1.1"
 description = "The core of the BSSD project"
 readme = "README.md"
 authors = [
   { name = "Eric Krämer", email = "eric.kraemer@stud.tu-darmstadt.de" },
-  { name = "Akkad Abraham", email = "akkad.abraham@stud.tu-darmstadt.de" }
+]
+maintainers = [
+  {name = "Moritz Berghöfer", email = "moritz.berghoefer@web.de"}
 ]
 license = { file = "LICENSE" }
 classifiers = [

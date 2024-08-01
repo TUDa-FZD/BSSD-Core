@@ -3,15 +3,16 @@
 # Install
 ## Using pip
 ```bash
-pip install bssd
+pip install bssd-core
 ```
 This will install the latest version of the bssd core library available in [PyPI](https://pypi.org/project/bssd/) to your environment.
 
 ## Manual installation from source
 
 Install the package into your local python3 virtual environment:
+- Clone the source code to a directory of your choice  
 ```bash
-git clone https://git.rwth-aachen.de/fzd/unicar-agil/sonstiges/bssd/core.git bssd
+git clone https://gitlab.com/tuda-fzd/scenery-representations-and-maps/bssd-core.git path/to/bssd-core-src/
 ```
 If you are using virtual environments, make sure to activate the correct environment to install the library into e.g:
 ```bash
@@ -20,7 +21,7 @@ source /<path-to-my-project>/.venv/bin/activate
 
 Install the library:
 ```bash
-pip install -e path/to/bssd/repository
+pip install -e path/to/bssd-core-src/
 ```
 
 # Usage

@@ -4,21 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bssd-core"
-version = "0.1.2"
-description = "The core of the BSSD project"
+version = "1.0.0"
+description = "Low level Python library for handling BSSD data within Lanelet2 maps"
 readme = "README.md"
-authors = [
-  { name = "Eric Krämer", email = "eric.kraemer@stud.tu-darmstadt.de" },
-]
-maintainers = [
-  {name = "Moritz Berghöfer", email = "moritz.berghoefer@web.de"}
-]
+authors = [{name = "Institute of Automotive Engineering, Technical University of Darmstadt", email = "sekretariat@fzd.tu-darmstadt.de"}]
+maintainers = [{name = "Institute of Automotive Engineering, Technical University of Darmstadt", email = "sekretariat@fzd.tu-darmstadt.de"}]
 license = { file = "LICENSE" }
+keywords = ["automated driving", "BSSD", "OSM"]
 classifiers = [
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-keywords = ["bssd", "osm"]
 dependencies = [
     "osmium"
 ]
@@ -26,3 +23,8 @@ requires-python = ">=3.8"
 
 [project.optional-dependencies]
 dev = ["pytest"]
+
+[project.urls]
+BSSD-Homepage = "https://gitlab.com/tuda-fzd/scenery-representations-and-maps/behavior-semantic-scenery-description"
+Repository = "https://gitlab.com/tuda-fzd/scenery-representations-and-maps/bssd-core"
+

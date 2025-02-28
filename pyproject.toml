@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bssd-core"
-version = "1.0.0"
+version = "2025.1"
 description = "Low level Python library for handling BSSD data within Lanelet2 maps"
 readme = "README.md"
-authors = [{name = "Institute of Automotive Engineering, Technical University of Darmstadt", email = "sekretariat@fzd.tu-darmstadt.de"}]
-maintainers = [{name = "Institute of Automotive Engineering, Technical University of Darmstadt", email = "sekretariat@fzd.tu-darmstadt.de"}]
+authors = [{name = "Institute of Automotive Engineering, Technical University of Darmstadt", email = "open-source@fzd.tu-darmstadt.de"}]
+maintainers = [{name = "Institute of Automotive Engineering, Technical University of Darmstadt", email = "open-source@fzd.tu-darmstadt.de"}]
 license = { file = "LICENSE" }
 keywords = ["automated driving", "BSSD", "OSM"]
 classifiers = [
